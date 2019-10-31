@@ -18,7 +18,7 @@ router.post('/', (req, res) => {
                 if (data=="ffff")
                     console.log("¡Validar medición!")
                 else{
-                    temp=data/100;
+                    temp=data;
                     console.log('data ok: ' +temp);
                 }
         }
